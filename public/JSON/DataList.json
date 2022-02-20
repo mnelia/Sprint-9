@@ -1,0 +1,8 @@
+
+
+[
+    { "id": 1,"foto": fotoUrl, "categoria": "Travel", "name": "Europa del Este", "price": "USD 1100", "stock": 5 },
+    { "id": 2, "foto": fotoUrls, "categoria": "Travel", "name": "Europa Occidental", "price": "USD 1300", "stock": 6 },
+    { "id": 3, "foto": fotoUrlx, "categoria": "Travel", "name": "Japon", "price": "USD 1650", "stock": 4 },
+    { "id": 4, "foto": fotoUrlz, "categoria": "Travel", "name": "Knya y Tanzania", "price": "USD 1780", "stock": 5 }
+]

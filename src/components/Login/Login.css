@@ -1,0 +1,9 @@
+.btn {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.row{
+    display: block;
+    align-items: center;
+}
