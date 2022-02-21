@@ -9,6 +9,8 @@ import '../Login/Login.css'
         password: ''
     })
 
+    
+
     const handleInputChange = (event) => {
         // console.log(event.target.name)
         // console.log(event.target.value)
@@ -30,16 +32,16 @@ import '../Login/Login.css'
     return (
         <Fragment>
             <div className="alignModal">
-            <img src='/images/logoLogIn.png' alt="Alt de la imagen" className="imageModal" />
+            <img src='/images/login.png' alt="Alt de la imagen" className="imageModal" />
             </div>
             <form className="row" onSubmit={enviarDatos}>
                 <div className="col-md-3">
                     <input type="text" placeholder="e-mail" className="form-control" onChange={handleInputChange} name="e-mail"></input>
                 </div>
                 <div className="col-md-3">
-                    <input type="password" placeholder="" className="form-control" onChange={handleInputChange} name="password"></input>
+                    <input type="password" placeholder="password" className="form-control" onChange={handleInputChange} name="password"></input>
                 </div>
-                <button  className="btn btn-primary">Sign In</button>
+                <button  className="btnF btn-primary">Sign In</button>
             </form>
         </Fragment>
     );

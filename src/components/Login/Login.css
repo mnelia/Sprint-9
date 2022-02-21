@@ -1,4 +1,4 @@
-.btn {
+.btnF {
     width: 50%;
     margin-top: 40px;
 }
@@ -6,4 +6,10 @@
 .row{
     display: block;
     align-items: center;
+}
+
+.imageModal{
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

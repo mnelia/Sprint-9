@@ -31,7 +31,7 @@ const searchFLights = ({
         method: 'GET',
         headers: {
             "Accept": "application/json",
-            "Authorization": "Bearer xzhuem54jn4ahnqxgab4qybw"
+            "Authorization": "Bearer kupmbvy6383bnyd2c3ac6yn2"
         }
     })
       .then(result => result.json())
